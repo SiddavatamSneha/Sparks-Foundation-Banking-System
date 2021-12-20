@@ -1,0 +1,178 @@
+
+html, body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.bg_image{
+    background-image: url("images/back_image1.jpg");
+    /* background-size: cover; */
+    margin-top: 0%;
+}
+
+.head1{
+    background-image: url("images/dblue.jfif");
+    background-size: cover;
+    color: aliceblue;
+    margin-top: 0%;
+}
+.head1 li{
+    display: inline;
+    text-align: right;
+}
+
+.head1 a{
+    color:beige;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.head2{
+    text-align: right;
+    font-size: 20px;
+}
+
+.head1 a:hover{
+    background-color: rgba(255,255,255, 0.3);
+}
+
+.section1 a:hover{
+    /* background-color: rgba(255, 255, 255, 0.685); */
+    -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+.head3{
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    
+}
+
+.basic{
+    margin-bottom: 0px;
+}
+
+.section1{
+    text-align: center;
+    padding-top: 0%;
+}
+
+.section1 li{
+    padding-top: 10px;
+    display: inline;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+
+.section1 a{
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: darkslategrey;
+    
+}
+
+.h1_value{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+.foot {
+    text-align: center;
+    background-image: url("images/dblue.jfif");
+    background-size: cover;
+    margin-top: 0%;
+    padding-top: 5px;
+}
+
+.foot li{
+    display: inline;
+    padding: 20px;
+}
+
+.foot2{
+    color: antiquewhite;
+}
+
+.section3{
+    margin-top: 0px;
+}
+
+.values{
+    text-align: center;
+}
+
+.values p{
+    font-family: 'Josefin Sans', sans-serif;
+    color:#191919 ;
+    font-weight: 550;
+}
+
+.values h3{
+    color:#160040;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    
+}
+
+#cust_table{
+    width: 100%;
+    display: table;
+}
+
+#cust_table_capt{
+    display: table-caption;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#cust_table_header{
+    display: table-header-group;
+    background-color: darkgray;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#cust_table_body{
+    display: table-row-group;
+}
+
+.cust_table_row{
+    display: table-row;
+}
+
+.form1{
+    text-align: center;
+    padding-top: 13%;
+  
+}
+
+
+body{
+    background-image: url(images/beige.jpg);
+    background-size: cover;
+}
+
+.inside{
+    padding: 10px;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+.inside1{
+    font-family: 'Source Serif Pro', serif;
+}
+select{
+
+    width: 80px;
+    height: 30px;
+}
+
+#amount{
+    width: 200px;
+    height: 30px;
+}
